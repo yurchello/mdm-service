@@ -1,0 +1,4 @@
+server:
+  port: 8080
+#  that property will allow you to ignore null and not to send them via http (like "name": null)
+  jackson.default-property-inclusion: non_null
